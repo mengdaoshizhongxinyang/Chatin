@@ -1,8 +1,8 @@
 /*
  * @Author: mengdaoshizhongxinyang
- * @Date: 2021-01-18 14:52:18
+ * @Date: 2021-01-20 15:27:19
  * @Description: 
  * @GitHub: https://github.com/mengdaoshizhongxinyang
  */
-import Chat from "./Chat";
-export default Chat
+import Icon from "./icon";
+export default Icon
