@@ -5,16 +5,6 @@
  * @GitHub: https://github.com/mengdaoshizhongxinyang
  */
 declare module "*.css" {
-  type keyArray = "chat-body" | 
-  "chat-contact-list" | 
-  "chat-contact-avatar-list" | 
-  "chat-border" | 
-  "chat-border-handle" | 
-  "chat-content" | 
-  "chat-title" | 
-  "chat-window" | 
-  "chat-enter" |
-  "chat-image"
-  const less: { [key in keyArray]: string };
+  const less: { [key : string]: string };
   export default less;
 }
