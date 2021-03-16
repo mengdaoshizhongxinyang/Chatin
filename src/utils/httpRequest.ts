@@ -21,7 +21,7 @@ type ReturnMessage={
 export class HTTPRequest {
   private request: AxiosInstance;
 
-  constructor(port: string) {
+  constructor(port: string|number) {
     this.request = axios.create({
       baseURL: `http://localhost:${port}`,
       timeout: 6000
